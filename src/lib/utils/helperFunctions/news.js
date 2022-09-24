@@ -4,9 +4,9 @@ import {news} from '$lib/stores';
 import { dynasty } from '$lib/utils/leagueInfo';
 
 const NBC_URL = 'https://www.nbcsportsedge.com/api/player_news?sort=-created&page%5Blimit%5D=10&page%5Boffset%5D=0&filter%5Bleague.meta.drupal_internal__id%5D=21&include=player,position,team,team.secondary_logo,player.image,related_players,related_teams';
-const REDDIT_DYNASTY = 'https://www.reddit.com/r/DynastyFF/new.json';
-const REDDIT_FANTASY = 'https://www.reddit.com/r/fantasyfootball/new.json';
-const SERVER_API = '/api/fetch_serverside_news';
+//const REDDIT_DYNASTY = 'https://www.reddit.com/r/DynastyFF/new.json';
+const FANTASYPROSY = 'https://www.fantasypros.com/nfl/breaking-news.php';
+//const SERVER_API = '/api/fetch_serverside_news';
 
 export const getNews = async (servFetch, bypass = false) => {
 	if(get(news)[0] && !bypass) {
