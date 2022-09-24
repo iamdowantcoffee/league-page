@@ -5,7 +5,7 @@ import {getNflState} from './helperFunctions/nflState';
 import {getLeagueRosters} from './helperFunctions/leagueRosters';
 import {getLeagueUsers} from './helperFunctions/leagueUsers';
 import {getLeagueMatchups} from './helperFunctions/leagueMatchups'
-//import {getNews, stringDate} from './helperFunctions/news';
+import {stringDate} from './helperFunctions/news';
 import {loadPlayers} from './helperFunctions/players';
 import { waitForAll } from './helperFunctions/multiPromise';
 import { getUpcomingDraft, getPreviousDrafts } from './helperFunctions/leagueDrafts'
