@@ -4,6 +4,7 @@ export const leagueName = "Camp Phillip Fantasy Football"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
+export const enableResources = false; // removes it? IDK.
 
 /*   STEP 2   */
 export const homepageText = `
