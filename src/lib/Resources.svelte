@@ -5,89 +5,18 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
-            name: "FTN Fantasy",
-            url: "https://www.ftnfantasy.com/nfl",
-            icon: "insights",
-            premium: true,
+            name: "The Commissioner's Report",
+            url: "https://open.spotify.com/show/0D4VQy1dmncxfVmwyVVfLj?si=8feb6c82697a479f",
+            icon: "podcasts",
+            premium: false,
             separator: true,
         },
         {
             name: "The Fantasy Footballers",
-            url: "https://www.thefantasyfootballers.com/",
+            url: "https://open.spotify.com/show/5RaNsb5sKEBleahQa4MVC5?si=63eb9d2e317c421d",
             icon: "podcasts",
-            premium: true,
-            separator: true,
-        },
-        {
-            name: "FantasyPros Dynasty Trade Value Chart",
-            url: `https://www.fantasypros.com/${today.getFullYear()}/${today.getMonth() + 1}/fantasy-football-rankings-dynasty-trade-value-chart-${today.toLocaleString('default', { month: 'long' }).toLowerCase()}-${today.getFullYear()}-update/`,
-            icon: "assessment",
             premium: false,
             separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "DynastyProcess Trade Calculator",
-            url: "https://apps.dynastyprocess.com/calculator/",
-            icon: "calculate",
-            premium: false,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Dynasty League Football",
-            url: "https://dynastyleaguefootball.com/",
-            icon: "insights",
-            premium: true,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Reddit Dynasty Fantasy Football",
-            url: "https://www.reddit.com/r/DynastyFF/",
-            icon: "article",
-            premium: false,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Reddit Fantasy Football",
-            url: "https://www.reddit.com/r/fantasyfootball/",
-            icon: "article",
-            premium: false,
-            separator: true,
-            redraftOnly: true,
-        },
-        {
-            name: "Dynasty 101 Trade Calculator",
-            url: "https://dynasty101.com/trade-calculator/",
-            icon: "calculate",
-            premium: false,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Dynasty Nerds GM",
-            url: "https://gm.dynastynerds.com/",
-            icon: "insights",
-            premium: true,
-            separator: true,
-            dynastyOnly: true,
-        },
-        {
-            name: "Fantasy Football Trade Analyzer",
-            url: `https://fantasyfootballcalculator.com/trade-analyzer`,
-            icon: "calculate",
-            premium: false,
-            separator: true,
-            redraftOnly: true,
-        },
-        {
-            name: "Reddit FF Trade Analyzer",
-            url: "https://www.reddit.com/r/TradeAnalyzerFF/",
-            icon: "assessment",
-            premium: false,
-            separator: false,
         },
     ];
 </script>
@@ -131,7 +60,7 @@ import { dynasty } from './utils/helper';
 
 <div class="pageBody">
     <div class="banner">
-        <h4>Helpful Dynasty Resources</h4>
+        <h4>Helpful Resources</h4>
     </div>
 
     <List class="list" dense>
