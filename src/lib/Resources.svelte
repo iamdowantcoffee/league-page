@@ -104,5 +104,5 @@ import { dynasty } from './utils/helper';
             {/if}
         {/each}
     </List>
-    <p class="disclaimer">*Some or all content is behind a paywall</p>
+    <p class="disclaimer">Enjoy.</p>
 </div>
