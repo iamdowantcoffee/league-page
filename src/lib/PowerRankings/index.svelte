@@ -26,7 +26,7 @@
 {#await helperPromises}
     <!-- promise is pending -->
     <div class="loading">
-        <p>Calculating power rankings...</p>
+        <p>Estimating Power of Teams</p>
         <LinearProgress indeterminate />
     </div>
 {:then [nflState, rostersData, users, records, leagueData, playersInfo]}
