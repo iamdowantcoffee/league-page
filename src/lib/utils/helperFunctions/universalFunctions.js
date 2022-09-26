@@ -1,10 +1,10 @@
 import { managers } from '$lib/utils/leagueInfo';
 import { goto } from "$app/navigation";
-import { stringDate } from './news';
+//import { stringDate } from './news';
 
-export const cleanName = (name) => {
-    return name.replace('Team ', '').toLowerCase().replace(/[ ’'!"#$%&\\'()\*+,\-\.\/:;<=>?@\[\\\]\^_`{|}~']/g, "");
-}
+//export const cleanName = (name) => {
+//    return name.replace('Team ', '').toLowerCase().replace(/[ ’'!"#$%&\\'()\*+,\-\.\/:;<=>?@\[\\\]\^_`{|}~']/g, "");
+//}
 
 export const round = (num) => {
     if(typeof(num) =="string") {
