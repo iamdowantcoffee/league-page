@@ -7,7 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>The home page for the Camp Phillip Fantasy Football League, as featured on The Commissioner's Report Podcast. Listen to the <span class="CR">Commissioner's Report <a href="https://open.spotify.com/show/0D4VQy1dmncxfVmwyVVfLj?si=39b709c89f3e4efa">HERE. </a><br /></span></p>
+  <p>The home page for the Camp Phillip Fantasy Football League, as featured on The Commissioner's Report Podcast. Listen to the <span class="CR">Commissioner's Report <a href="https://open.spotify.com/show/0D4VQy1dmncxfVmwyVVfLj?si=39b709c89f3e4efa">HERE</a><br /></span>.</p>
 `;
 
 /*   STEP 3   */
