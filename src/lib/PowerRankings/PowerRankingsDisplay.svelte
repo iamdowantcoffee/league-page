@@ -66,9 +66,9 @@
         const powerGraph = {
             stats: rosterPowers,
             x: "Manager",
-            y: "Power Ranking",
+            y: "Estimated Team Power",
             stat: "",
-            header: "Rest of Season Power Rankings",
+            header: "Rest of Season Estimated Team Power",
             field: "powerScore",
             short: "ROS Power Ranking"
         };
