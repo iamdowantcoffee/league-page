@@ -56,11 +56,11 @@ export const tabs = [
                 label: 'Records',
                 dest: '/records',
             },
-            {
-                icon: 'history_edu',
-                label: 'Constitution',
-                dest: '/constitution',
-            },
+//            {
+//                icon: 'history_edu',
+//                label: 'Constitution',
+//                dest: '/constitution',
+//            },
             {
                 icon: 'sports_football',
                 label: 'Go to Sleeper',
@@ -68,9 +68,9 @@ export const tabs = [
             },
         ]
     },
-    {
-        icon: 'lightbulb',
-        label: 'Resources',
-        dest: '/resources',
-    },
+//    {
+//        icon: 'lightbulb',
+//        label: 'Resources',
+//        dest: '/resources',
+//    },
 ];
